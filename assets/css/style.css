@@ -21,7 +21,7 @@ body {
 	text-align: center;
 	padding: 10px;
 	font-family: 'Vesper Libre', serif;
-	font-size: 30px;
+	font-size: 4vw;
 	color:rgb(95, 59, 34);
 }
 		
@@ -30,7 +30,7 @@ body {
 #miri,#fiica {
     font-family: 'Ruthie', cursive;
     color: rgb(92, 92, 83);
-    font-size: 80px;
+    font-size: 8vw;
     text-shadow: 1px 1px rgba(19,18,18,1.00);	
 }
 
@@ -41,8 +41,8 @@ body {
 	
 	}
 .ziua {
-	 height:60px;
-	 width:60px;
+	 height:8vw;
+	 width:8vw;
 	 border-style: ridge;
 	 border-radius: 50%;
 	 border-color:rgb(95, 59, 34);
