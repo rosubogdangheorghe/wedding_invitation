@@ -16,6 +16,17 @@ body {
 	
 	}
 	
+ @media (max-width:566px){
+	body {
+	background-image: url("../images/backgroundsmall.jpg");
+	background-position: center top;
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+	width:100%;
+	height: auto;
+	}
+}
 
 	.principal {
 	width: 90%;	
