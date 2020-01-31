@@ -80,19 +80,14 @@ body {
 	
 }
 
-.separator,.map {
+img {
   max-width: 14vw;
+  position: absolute;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   
 }
-.separator {
-	opacity: 0.2;
-	filter: alpha(opacity=20);
-	
-}
-
 span {
 	text-transform: uppercase;
 }
