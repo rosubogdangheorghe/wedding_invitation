@@ -1,13 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
-* {
+/* {
 	box-sizing: border-box;
 
-}
+}*/
 
 body {
-	background-image: url("../images/background.jpg");
-	background-position: center;
+	background-image: url("../images/background2.jpg");
+	background-position: center top;
   	background-repeat: no-repeat;
   	background-size: cover;
 	
@@ -20,54 +20,32 @@ body {
     margin-right: auto;
 	text-align: center;
 	padding: 10px;
+	font-family: 'Vesper Libre', serif;
+	font-size: 30px;
+	color:rgb(95, 59, 34);
 }
 		
 	
-#title {
-	
-	font-family: 'Vesper Libre', serif;
-	font-size: 4vw;
-	color:rgb(95, 59, 34);
+
+#miri,#fiica {
+    font-family: 'Ruthie', cursive;
+    color: rgb(92, 92, 83);
+    font-size: 80px;
+    text-shadow: 1px 1px rgba(19,18,18,1.00);	
+}
+
+.ziua,.luna,.anul {
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 	
 	}
-#miri {
-	font-family: 'Ruthie', cursive;
-	color:rgb(92, 92, 83);
-	/*font-weight: 900;*/
-	font-size: 5vw;
-	margin-left: auto;
-	margin-right: auto;
-	
-}
-#fiica {
-	
-	font-family: 'Ruthie', cursive;
-	font-size: 8vw;
-	color:rgb(92, 92, 83);
-	text-shadow: 1px 1px;
-	margin-left: auto;
-	margin-right: auto;
-	
-}
-#invitatie, #text {
-	font-family: 'Vesper Libre', serif;
-	text-align: center;
-	font-size: 4vw;
-	color: rgb(95, 59, 34);
-	margin-left: auto;
-	margin-right: auto;
-	
-}
-.ziua,.luna,.anul {
-	display: inline-block;
-	font-family: 'Vesper Libre', serif;
-	font-size: 4vw;
-	color: rgb(95, 59, 34);
-	margin-left: auto;
-	margin-right: auto;
-	
+.ziua {
+	 height:60px;
+	 width:60px;
+	 border-style: ridge;
+	 border-radius: 50%;
+	 border-color:rgb(95, 59, 34);
 }
 .luna::before,.luna::after {
   display: block;
@@ -87,13 +65,7 @@ body {
   margin: .5vw auto;
 	
 }
-.ziua {
-	 height:8vw;
-	 width:8vw;
-	 border-style: ridge;
-	 border-radius: 50%;
-	 border-color:rgb(95, 59, 34);
-}
+
 .separator,.map {
   max-width: 14vw;
   height: auto;
