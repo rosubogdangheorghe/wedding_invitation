@@ -43,9 +43,8 @@ body {
 
 #miri,#fiica {
     font-family: 'Ruthie', cursive;
-    color: rgb(92, 92, 83);
     font-size: 8vw;
-    /*text-shadow: 1px 1px rgba(233,218,185,1.00);*/
+    color: rgba(64,64,49,1.00);   /*text-shadow: 1px 1px rgba(233,218,185,1.00);*/
 }
 
 .ziua,.luna,.anul {
