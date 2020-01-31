@@ -4,28 +4,25 @@
 	box-sizing: border-box;
 
 }
-/* Single-direction margin declaration to establish vertical rhythm. */
-h1,h2,h3,
-ul,ol,
-p,
-img {
-    margin-bottom: 1.5rem;
-}
+
 body {
-	
-	
-	
-}
-	.container {
-		
 	background-image: url("../images/background.jpg");
-	text-align: center;
 	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-left: auto;
-  margin-right: auto;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	
 }
+	
+
+	.wrapper {
+	width: 85%;	
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding: 10px;
+}
+		
+	
 #title {
 	
 	font-family: 'Vesper Libre', serif;
@@ -56,6 +53,7 @@ body {
 }
 #invitatie, #text {
 	font-family: 'Vesper Libre', serif;
+	text-align: center;
 	font-size: 4vw;
 	color: rgb(95, 59, 34);
 	margin-left: auto;
