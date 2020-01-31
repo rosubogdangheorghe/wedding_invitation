@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+
+}
+/* Single-direction margin declaration to establish vertical rhythm. */
+h1,h2,h3,
+ul,ol,
+p,
+img {
+    margin-bottom: 1.5rem;
+}
+body {
+	background-image: url("../images/background.jpg");
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	
+}
+#title {
+	
+	font-family: 'Vesper Libre', serif;
+	font-size: 4vw;
+	color:rgb(95, 59, 34);
+	margin-left: auto;
+	margin-right: auto;
+	
+	}
+#miri {
+	font-family: 'Ruthie', cursive;
+	color:rgb(92, 92, 83);
+	/*font-weight: 900;*/
+	font-size: 5vw;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#fiica {
+	
+	font-family: 'Ruthie', cursive;
+	font-size: 8vw;
+	color:rgb(92, 92, 83);
+	text-shadow: 1px 1px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#invitatie, #text {
+	font-family: 'Vesper Libre', serif;
+	font-size: 2vw;
+	color: rgb(95, 59, 34);
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.ziua,.luna,.anul {
+	display: inline-block;
+	font-family: 'Vesper Libre', serif;
+	font-size: 4vw;
+	color: rgb(95, 59, 34);
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.luna::before,.luna::after {
+  display: block;
+  content: "";
+  background-color:rgb(95, 59, 34);
+  height: 1px;
+  width: 8vw;
+  margin: .5vw auto;
+	
+}
+.anul::before,.anul::after {
+  display: block;
+  content: "";
+  background-color: rgb(95, 59, 34);
+  height: 1px;
+  width: 8vw;
+  margin: .5vw auto;
+	
+}
+.ziua {
+	 height:7vw;
+	 width:7vw;
+	 border-style: ridge;
+	 border-radius: 50%;
+	 border-color:rgb(95, 59, 34);
+}
+.separator,.map {
+  max-width: 14vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.separator {
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	
+}
+span {
+	text-transform: uppercase;
+}
+
+
+/*font-family: 'Vesper Libre', serif;
+font-family: 'Ruthie', cursive;*/
