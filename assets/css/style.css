@@ -6,10 +6,12 @@
 }*/
 
 body {
-	background-image: url("../images/background3.jpg");
+	background-image: url("../images/background.jpg");
 	background-position: center top;
   	background-repeat: no-repeat;
   	background-size: cover;
+	width:100%;
+	height: auto;
 	
 }
 	
