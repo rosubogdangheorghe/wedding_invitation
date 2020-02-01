@@ -90,7 +90,11 @@ img {
 span {
 	text-transform: uppercase;
 }
-
+.creator{
+	font-size: 2vw;
+	float:right;
+	
+}
 
 /*font-family: 'Vesper Libre', serif;
 font-family: 'Ruthie', cursive;*/

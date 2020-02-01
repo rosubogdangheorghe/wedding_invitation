@@ -69,8 +69,22 @@
 	</main>
    <footer class="creator">
 	   <p>&#169;Created by PubHub</p>
-		<a href = "https://www.facebook.com/pubhubro/" target="_blank"><img src="assets/images/logo .png" width="84" height="53" alt="PubHub"/></a>
-  </footer>
-          
+	   <a href = "https://www.facebook.com/pubhubro/" target="_blank">
+  
+   		<picture> 
+  <!-- Default low resolution image -->
+  		<source srcset="assets/images/logosmall.jpg" type="image/jpg">
+  
+  <!-- Medium resolution image -->
+  		<source srcset="assets/images/logosmall.jpg" media="(min-width: 768px)">
+  
+  <!--High resolution Image -->
+  		<source srcset="assets/images/logobig.jpg" media="(min-width: 1200px)">
+  
+  <!-- Fallback image incase the picture element is not supported --> 
+  		<img src="assets/images/logsmall.jpg" alt="PubHub">    
+	</picture>
+		  </a>
+	  </footer>
 </body>
 </html>
